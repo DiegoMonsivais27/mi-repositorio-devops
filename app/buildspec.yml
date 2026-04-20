@@ -1,0 +1,8 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Construyendo la imagen Docker..."
+      - docker build -t mi-app ./app
+      - echo "Construcción finalizada."
